@@ -1,0 +1,146 @@
+/* task1 */
+/* body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+thead {
+    position: sticky;
+    top: 0;
+    background-color: #b0e0e6;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+th:first-child, td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #b0e0e6;
+    z-index: 1;
+}
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+ /* task2 */
+ /* body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    height: 100%;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    background-color: #444;
+    color: #fff;
+    overflow: hidden;
+    transition: width 1s;
+}
+.sidebar:hover {
+    width: 200px;
+}
+.sidebar .menu-item {
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.sidebar .menu-item:hover {
+    background-color: #333;
+}
+.content {
+    margin-left: 60px;
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto;
+}
+.icon {
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+}
+.menu-text {
+    display: none;
+}
+.sidebar:hover .menu-text {
+    display: inline-block;
+} */
+ /* task3 */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.plan {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    height: 250px;
+    transition: transform 1s;
+    overflow: hidden;
+    position: relative;
+}
+
+.plan:hover {
+    transform: scale(1.1);
+}
+
+.plan h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.plan p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.plan span {
+    font-size: 14px;
+    color: #999;
+}
+
+.plan button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.plan button:hover {
+    background: #0056b3;
+}
+
+
